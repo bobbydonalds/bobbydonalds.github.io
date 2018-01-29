@@ -2,103 +2,125 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Bobby Donald Macnamara</title>
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+    <title>Official Bobby Donald Macnamara</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style media="screen">
+    html{
+      background: url(https://static.pexels.com/photos/490411/pexels-photo-490411.jpeg) no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    #box{
+      background : rgba(0,0,0,0.4);
+      padding: 40px;
+      width: 600px;
+      height: 600px;
+      margin: 0 auto;
+      margin-top: 150px;
+      text-align: center;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+    }
+    .name{
+      font-size: 30px;
+    }
+    .about{
+      font-size: 15px;
+    }
+
+    .avatar{
+      padding-top: 20px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    @media (max-width: 1000px) {
+      #box{
+        width: 500px;
+        height: 500px;
+      }
+      .avatar{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+      }
+    }
+
+
+    @media (max-width: 630px) {
+      .avatar{
+        padding-top: 1px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+      #box{
+        margin-top: 210px;
+        width: 370px;
+        height: 370px;
+      }
+      .name{
+        font-size: 25px;
+      }
+      .about{
+        font-size: 12.5px;
+      }
+    }
+
+    @media (max-width: 414px) {
+      .avatar{
+        padding-top: 1px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      #box{
+        margin-top: 190px;
+        width: 200px;
+        height: 200px;
+      }
+      .name{
+        font-size: 15px;
+      }
+      .about{
+        font-size: 7.5px;
+      }
+    }
+
+    @media (max-width: 375px) {
+      .avatar{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      #box{
+        margin-top: 150px;
+        width: 160px;
+        height: 160px;
+      }
+      .name{
+        font-size: 10px;
+      }
+      .about{
+        font-size: 5px;
+      }
+
+    }
+
+    </style>
   </head>
-  <link rel="stylesheet" href="css/style.css" />
-  <style>
-    @font-face {
-    font-family: typo;
-    src: url(../css/gt-walsheim-web.woff);
-}
-@font-face {
-    font-family: job;
-    src: url(../css/gt-walsheim-regular-oblique-web.woff);
-}
-
-body{
-  background-color: #e7e7e7
-;
-}
-
-#content{
-  position: absolute;
-  top:  0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-#content p{
-  color: black;
-  text-align: center;
-  letter-spacing: 1px;
-}
-.about{
-  font-size:30px;
-}
-
-#container{
-  margin-top: 110px;
-
-}
-.container{
-  margin-top: 140px;
-
-}
-
-.nama{
-  font-size: 50px;
-  text-decoration: none;
-  font-family: typo ;
-}
-
-.job{
-  font-family: job;
-}
-
-.avatar{
-  text-align: center;
-}
-
-.avatar img {
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 50%;
-}
-
-@media handheld, only screen and (max-width: 720px) {
-
-#container{
-  margin-top: 400px;
-}
-
-.nama{
-  font-size: 25px;
-}
-
-.about{
-  font-size: 18px;
-}
-
-.avatar img {
-  max-width: 130px;
-  max-height: 130px;
-  border-radius: 50%;
-}
-
-}
-  </style>
   <body>
+    <div id="box">
+      <br>
+      <img class="avatar" src="https://scontent-sin6-2.cdninstagram.com/vp/50c4ce5d9a2701c649f06b874c7b1433/5AE7386A/t51.2885-15/e35/24177612_1358081977653670_4574680988226945024_n.jpg" alt="">
 
-    <div id="content">
-      <div id="container" class="container">
-        <p class="avatar">
-        <div class="avatar">
-    			<img src="img/avatars.jpg" alt="Avatar">
-    		</div>
-      </p>
-        <p class="nama">BOBBY DONALD MACNAMARA</p>
-        <p class="about job">Web Designer - Front-end</p>
-      </div>
+      <br>
+      <hr>
+      <p class="name">Bobby Donald Macnamara</p>
+      <p class="about">UNTAN student | Amateur Front-end</p>
+
     </div>
   </body>
 </html>
